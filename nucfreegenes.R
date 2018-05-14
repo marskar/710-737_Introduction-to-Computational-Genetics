@@ -11,7 +11,7 @@ genesIR <- IRanges(start=gstarts, end=gends)
 
 nucfreeIR <- IRanges(start=nucfree[,2], end=nucfree[,3])
 
-ovl <- findOverlaps(query = genesIR, subject = nucfreeIR)
+genesovl <- findOverlaps(query = genesIR, subject = nucfreeIR)
 # Hits object with 203719 hits and 0 metadata columns:
 #            queryHits subjectHits
 #            <integer>   <integer>
@@ -28,9 +28,14 @@ ovl <- findOverlaps(query = genesIR, subject = nucfreeIR)
 #   [203719]      6189       19618
 #   -------
 #   queryLength: 6189 / subjectLength: 22093
-sel <- unique(from(ovl))
+
+nrow(genes)
+# [1] 12803
+sel <- unique(from(genesovl))
 genesovl <- genes[sel,]
 nrow(genesovl)
+# [1] 6140
 
-#It appears that 6140 genes overlaps overlap nucleosome free regions
+
+#It appears that 6140 out the total 12803 genes overlap nucleosome free regions.
 

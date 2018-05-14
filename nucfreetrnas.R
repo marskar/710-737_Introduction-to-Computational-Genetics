@@ -11,7 +11,7 @@ trnasIR <- IRanges(start=tstarts, end=tends)
 
 nucfreeIR <- IRanges(start=nucfree[,2], end=nucfree[,3])
 
-ovl <- findOverlaps(query = trnasIR, subject = nucfreeIR)
+trnasovl <- findOverlaps(query = trnasIR, subject = nucfreeIR)
 # Hits object with 1201 hits and 0 metadata columns:
 #          queryHits subjectHits
 #          <integer>   <integer>
@@ -28,9 +28,13 @@ ovl <- findOverlaps(query = trnasIR, subject = nucfreeIR)
 #   [1201]       256       19494
 #   -------
 #   queryLength: 256 / subjectLength: 22093
-sel <- unique(from(ovl))
-genesovl <- trnas[sel,]
-nrow(genesovl)
 
-#It appears that 253 trnas overlaps overlap nucleosome free regions
+nrow(trnas)
+# [1] 256
+sel <- unique(from(trnasovl))
+trnasovl <- trnas[sel,]
+nrow(trnasovl)
+# [1] 253
+
+#It appears that 253 out the total 256 trnas overlap nucleosome free regions.
 
