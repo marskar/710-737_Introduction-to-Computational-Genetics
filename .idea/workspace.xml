@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17c4766c-084d-4d33-b5d7-96c8b2d1e152" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/WJH_1.fastq.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WJH_2.fastq.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chr19.fa.gz" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/geneinfo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/replace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hist.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/hist.pdf" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="replace.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="replace.py" pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/replace.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -39,11 +39,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fancyoptionexample.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="geneinfo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geneinfo.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="fancyoptionexample.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commandline/fancyoptionexample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="522">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -216,10 +221,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/replace.py">
+    <entry file="file://$PROJECT_DIR$/commandline/fancyoptionexample.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="522">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>
@@ -230,10 +235,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commandline/fancyoptionexample.py">
+    <entry file="file://$PROJECT_DIR$/geneinfo.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/replace.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="126">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
